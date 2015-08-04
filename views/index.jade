@@ -1,0 +1,31 @@
+extends layout
+
+block content
+  .container
+    .row.col-s12.center-align
+      h4#countdown Waiting for players..
+    .row
+      .col-s6.p1-score
+        p 0
+      .col-s6.p2-score
+        p 0
+    .row
+      .col-s6(style='float:left')
+        p#p1-text You
+      .col-s6(style='float:right')
+        p#p2-text Opponent
+    .row
+      p#typingArea(style='visibility:hidden')
+    .row.col-s12#typingFieldDiv(style='visibility:hidden')
+      .input-field.col-s12
+        input#typingField(placeholder='Prepare to type', type='text')
+        label(for='typingField')
+    .row#sharingTable
+      .col-s12
+        table.center-table
+          .form-group
+            label(for="shareUrl").col-sm-3.control-label.share-label Share URL:
+              .col-sm-9
+                input#roomInputId(type='text', data-room=share, name='shareUrl', value=shareURL ReadOnly).form-control
+    .row
+      a.waves-effect.waves-light.btn(href="/") Restart

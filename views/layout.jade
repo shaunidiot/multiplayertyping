@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+    head
+        title Multiplayer Typing Race
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet', href='static/stylesheets/styles.css')
+        link(rel='stylesheet', href='static/stylesheets/materialize.css')
+    body
+        #wrap
+            nav.navbar.navbar-default(role='navigation')
+                .container-fluid
+                    .navbar-header
+                        a.navbar-brand(href='#') Multiplayer Typing Race
+            block content
+        #footer
+            .container
+                p.text-muted
+                    | Developed by
+                    | <a href="https://github.com/shaunidiot/multiplayertyping">Shaun</a>.
+        block javascript
+            script(src='/socket.io/socket.io.js')
+            script(src='static/javascript/frontend.js')
+            script(src='static/javascript/materialize.js')

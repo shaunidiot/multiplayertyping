@@ -1,0 +1,21 @@
+{
+  "name": "nodetype",
+  "version": "0.0.0",
+  "authors": [
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.97.0",
+    "toastr": "~2.1.1"
+  }
+}
