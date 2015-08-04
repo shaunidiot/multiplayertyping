@@ -1,0 +1,7 @@
+{
+  "name": "Multiplayer Typing Race",
+  "description": "A node.js multiplayer typing race game using sockets.",
+  "repository": "https://github.com/shaunidiot/multiplayertyping",
+  "logo": "https://github.com/shaunidiot/multiplayertyping",
+  "keywords": ["node", "express", "sockets"]
+}
