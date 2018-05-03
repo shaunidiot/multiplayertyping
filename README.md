@@ -1,5 +1,7 @@
 #Node.js Multiplayer Typing Race
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/shaunidiot/multiplayertyping.svg)](https://greenkeeper.io/)
+
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/shaunidiot/multiplayertyping)
 
 ### Requirement
